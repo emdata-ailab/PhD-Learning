@@ -1,12 +1,6 @@
 # PhD-Learning
 
-
-[^_^]: #
-    The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).
-
-[^_^]:
-    commentted-out contents
-    should be shift to right by four spaces (`>>`).
+<!--The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).-->
 
 ## Introduction
 
