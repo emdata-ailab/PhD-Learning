@@ -1,13 +1,13 @@
 # PhD-Learning
 
-This repository contains the pytorch implementation of **Phd loss** introduced in CVPR21 paper **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-basedVehicle Re-Identification.**
 
-The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).
+
+[//]: # (The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).)
 
 ## Introduction
-Static image-based approaches for vehicle re-ID task are intrinsically limited due to the visual ambiguities (e.g., occlusions, viewpoints,and resolutions) and the lack of spatio-temporal information.   Video  sequences  contain  richer  spatial  and  temporal clues and are beneficial for identifying a vehicle under complex surveillance conditions. Currently, making use of videos  brings  new  challenges  to  vehicle  re-ID.  The  difficulties  mainly  come  from  the  following  two  aspects: 1) An  adequate  quantity  and  high-quality  video-based  vehicle re-ID dataset is absent. 2) An effective video-based vehicle re-ID method of seeking discriminative features from the videos is also critically needed. To overcome the above limitations, 
-- We firstly  createa  new  Video-based  Vehicle  Re-Identification  benchmark named [**VVeRI-901**](https://gas.graviti.cn/dataset/hello-dataset/VVeRI901).
-- We then propose a set-to-set Pompeiu-hausdorff Distance (PhD) learning method for video-to-video matching. It can  eliminate  the  occlusion samples automatically during the optimization process.
+
+This repository contains the pytorch implementation of **Phd loss** introduced in CVPR21 paper **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-basedVehicle Re-Identification.** In this paper, we first create a video vehicle re-ID evaluation benchmark called [**VVeRI-901**](https://gas.graviti.cn/dataset/hello-dataset/VVeRI901) and verify the performance of video-based re-ID is far better than static image-based one. 
+Then we propose a new Pompeiu-hausdorff distance (PhD) learning method for video-to-video matching.  It can alleviate the data noise problem caused by the occlusion in videos and thus improve re-ID performance significantly. Extensive empirical results on video-based vehicle and person re-ID datasets, i.e., VVeRI-901, MARS and PRID2011, demonstrate the superiority of the proposed method.
 
 <img src='./docs/intro.png' width=600>
 
