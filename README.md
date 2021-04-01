@@ -2,7 +2,7 @@
 
 
 
-[//]: # (The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).)
+[//]: (The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).)
 
 ## Introduction
 
