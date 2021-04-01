@@ -1,7 +1,7 @@
 # PhD-Learning
 
 
-[^_^]:
+[^_^]: #
     The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).
 
 ## Introduction
