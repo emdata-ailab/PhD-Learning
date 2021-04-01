@@ -13,7 +13,7 @@ Static image-based approaches for vehicle re-ID task are intrinsically limited d
 
 ## VVeRI-901
 
-The  proposed  dataset  contains **901** IDs (i.e.,451 IDs for training and 450 IDs for testing), **23,20** tracklets, and **488,195** bounding boxes. 
+The  proposed  dataset  contains **901** IDs (i.e.,451 IDs for training and 450 IDs for testing), **2,320** tracklets, and **488,195** bounding boxes. 
 Besides the vehicle re-ID task, more  related  research  areas  can  be  facilitated, like 
 - cross-resolution re-ID, 
 - cross-view matching,
@@ -30,7 +30,7 @@ Besides the vehicle re-ID task, more  related  research  areas  can  be  facilit
 
 ## PhD Loss
 
-The pompeiu-hausdorff distance (PhD) is widely used to measure the similarity between two sets of points. I this work, we investigate the application of PhD metric learning in the field of person/vehicle video-based re-ID task and demonstrate the superiority of PhD metric learning in nosie resistance.
+The pompeiu-hausdorff distance (PhD) is widely used to measure the similarity between two sets of points. In this work, we investigate the application of PhD metric learning in the field of person/vehicle video-based re-ID task and demonstrate the superiority of PhD metric learning in nosie resistance.
 
 ### Principle of PhD metric learning
 <img src='./docs/phd_intro.png' width=600>
@@ -38,10 +38,10 @@ The pompeiu-hausdorff distance (PhD) is widely used to measure the similarity be
 ## Evaluation Results
 
 ### Vehicle video-based re-ID (VVeRI-901)
-<img src='./docs/veri901_result.png' width=600>
+<img src='./docs/veri901_result.png' width=400>
 
 ### Person video-based re-ID (Mars, PRID2011)
-<img src='./docs/person_result.png' width=600>
+<img src='./docs/person_result.png' width=400>
 
 ## Citation
 Please cite the following reference if you feel our work is useful to your research.
@@ -59,8 +59,8 @@ Please cite the following reference if you feel our work is useful to your resea
 For any question, please file an issue or contact
 
 ```
-Jianan Zhao ( Shanghai Em-Data Technology Co., Ltd.) jianan.zhao24@gmail.com
-Fengliang Qi ( Shanghai Em-Data Technology Co., Ltd.) fengliang.qi07@gmail.com
-Guangyu Ren ( Imperial College London) g.ren19@imperial.ac.uk
-Lin Xu ( Shanghai Em-Data Technology Co., Ltd.) lin.xu5470@gmail.com
+Jianan Zhao ([Shanghai Em-Data Technology Co., Ltd.](https://www.em-data.com.cn/)) jianan.zhao24@gmail.com
+Fengliang Qi (Shanghai Em-Data Technology Co., Ltd.) fengliang.qi07@gmail.com
+Guangyu Ren (Imperial College London) g.ren19@imperial.ac.uk
+Lin Xu (Shanghai Em-Data Technology Co., Ltd.) lin.xu5470@gmail.com
 ```
