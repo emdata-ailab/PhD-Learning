@@ -8,16 +8,17 @@ import numpy as np
 class PhdLoss(nn.Module):
     """PhD loss with hard positive/negative mining.
     
-    Reference:
-        Hermans et al. In Defense of the PhD Loss for Person Re-Identification. arXiv:1703.07737.
-    
-    Imported from `<https://github.com/Cysu/open-reid/blob/master/reid/loss/triplet.py>`_.
-    
     Args:
         margin (float, optional): margin for triplet. Default is 0.3.
+        k_ap (int, optional): slack factor for postive sample mining. Default is 3.
+        k_an (int, optional): slack factor for negative sample mining. Default is 6.
+        normalize (bool, optional): normalize the feature vector before rank loss caluation. Default is True.
+        vis_batch_hard (bool, optional): visual the hard samples in PhD metric learning. Default is False.
+    Return:
+        phd_loss (torch.tensor): PhD loss 
     """
 
-    def __init__(self, margin=0.3, k_ap=3, k_an=6, normalize=True, vis_batch_hard=True):
+    def __init__(self, margin=0.3, k_ap=3, k_an=6, normalize=True, vis_batch_hard=False):
         super(PhdLoss, self).__init__()
         self.margin = margin
         self.ranking_loss = nn.MarginRankingLoss(margin=margin)
