@@ -4,6 +4,10 @@
 [^_^]: #
     The whole project is established based on the open source project [**torchreid**](https://github.com/KaiyangZhou/deep-person-reid).
 
+[^_^]:
+    commentted-out contents
+    should be shift to right by four spaces (`>>`).
+
 ## Introduction
 
 This repository contains the pytorch implementation of **Phd loss** introduced in CVPR21 paper **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-basedVehicle Re-Identification.** In this paper, we first create a video vehicle re-ID evaluation benchmark called [**VVeRI-901**](https://gas.graviti.cn/dataset/hello-dataset/VVeRI901) and verify the performance of video-based re-ID is far better than static image-based one. 
