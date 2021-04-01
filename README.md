@@ -32,7 +32,6 @@ Besides the vehicle re-ID task, more  related  research  areas  can  be  facilit
 
 The pompeiu-hausdorff distance (PhD) is widely used to measure the similarity between two sets of points. In this work, we investigate the application of PhD metric learning in the field of person/vehicle video-based re-ID task and demonstrate the superiority of PhD metric learning in nosie resistance.
 
-### Principle of PhD metric learning
 <img src='./docs/phd_intro.png' width=600>
 
 ## Evaluation Results
