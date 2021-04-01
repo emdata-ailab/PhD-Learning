@@ -2,7 +2,7 @@
 
 This repository contains the pytorch implementation of **Phd loss** introduced in CVPR21 paper **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-basedVehicle Re-Identification.**
 
-The whole project is established based on the open source project **torchreid**: https://github.com/KaiyangZhou/deep-person-reid.
+The whole project is established based on the open source project [**torchreid**]https://github.com/KaiyangZhou/deep-person-reid.
 
 ## Introduction
 Static image-based approaches for vehicle re-ID task are intrinsically limited due to the visual ambiguities (e.g., occlusions, viewpoints,and resolutions) and the lack of spatio-temporal information.   Video  sequences  contain  richer  spatial  and  temporal clues and are beneficial for identifying a vehicle under complex surveillance conditions. Currently, making use of videos  brings  new  challenges  to  vehicle  re-ID.  The  difficulties  mainly  come  from  the  following  two  aspects: 1) An  adequate  quantity  and  high-quality  video-based  vehicle re-ID dataset is absent. 2) An effective video-based vehicle re-ID method of seeking discriminative features from the videos is also critically needed. To overcome the above limitations, 
@@ -59,7 +59,7 @@ Please cite the following reference if you feel our work is useful to your resea
 For any question, please file an issue or contact
 
 ```
-Jianan Zhao ([Shanghai Em-Data Technology Co., Ltd.](https://www.em-data.com.cn/)) jianan.zhao24@gmail.com
+Jianan Zhao (Shanghai Em-Data Technology Co., Ltd.) jianan.zhao24@gmail.com
 Fengliang Qi (Shanghai Em-Data Technology Co., Ltd.) fengliang.qi07@gmail.com
 Guangyu Ren (Imperial College London) g.ren19@imperial.ac.uk
 Lin Xu (Shanghai Em-Data Technology Co., Ltd.) lin.xu5470@gmail.com
