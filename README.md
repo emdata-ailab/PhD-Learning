@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository contains the pytorch implementation of **Phd loss** introduced in CVPR21 paper **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-basedVehicle Re-Identification.** In this paper, we first create a video vehicle re-ID evaluation benchmark called [**VVeRI-901**](https://cove.thecvf.com/datasets/564) and verify the performance of video-based re-ID is far better than static image-based one. 
+This repository contains the pytorch implementation of **Phd loss** introduced in CVPR21 paper **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-based Vehicle Re-Identification.** In this paper, we first create a video vehicle re-ID evaluation benchmark called [**VVeRI-901**](https://cove.thecvf.com/datasets/564) and verify the performance of video-based re-ID is far better than static image-based one. 
 Then we propose a new Pompeiu-hausdorff distance (PhD) learning method for video-to-video matching.  It can alleviate the data noise problem caused by the occlusion in videos and thus improve re-ID performance significantly. Extensive empirical results on video-based vehicle and person re-ID datasets, i.e., VVeRI-901, MARS and PRID2011, demonstrate the superiority of the proposed method.
 
 <img src='./docs/intro.png' width=600>
